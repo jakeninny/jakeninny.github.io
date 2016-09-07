@@ -1,5 +1,25 @@
 // ***Layout Styles***
 
+$half-padding: 50px 20px;
+
 .site-container {
-  
+
+  header {
+    width: 50%;
+    padding: $half-padding;
+    float: left;
+  }
+
+  .main-content {
+    width: 50%;
+    padding: $half-padding;
+    float: right;
+  }
+
+  @media (max-width: 600px) {
+    header,
+    .main-content {
+      width: 100%;
+    }
+  }
 }
