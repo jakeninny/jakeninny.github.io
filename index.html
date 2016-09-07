@@ -3,8 +3,9 @@ layout: default
 title: Jake Ninness | Sup
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
+
+<div id="work">
+  <h1>Work</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>

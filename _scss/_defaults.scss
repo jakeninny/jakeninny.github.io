@@ -30,6 +30,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Inconsolata', monospace;
 
 }
 h1 {
@@ -38,9 +39,13 @@ h1 {
 }
 p {
     margin: 1em 0;
+    font-family: 'Noto Serif', serif;
+
 }
 a {
     color: #00a;
+    font-family: 'Noto Serif', serif;
+
 }
 a:hover {
     color: #000;
