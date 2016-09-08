@@ -4,9 +4,40 @@
 
 header {
 
+  .updating {
+    text-align: center;
+    margin-top: 60px;
+
+    font-size: 2rem;
+
+    border: 1px dashed ;
+  }
+
 
   h1 {
     font-family: 'Inconsolata', monospace;
     font-size: 2.8rem;
+  }
+
+  h2 {
+    font-weight: 200;
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 30px;
+
+    li {
+      margin-top: 5px;
+
+      a {
+
+
+        &:hover {
+          text-decoration: line-through;
+        }
+      }
+    }
   }
 }
