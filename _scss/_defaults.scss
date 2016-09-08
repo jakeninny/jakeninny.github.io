@@ -48,20 +48,29 @@ p {
 
 }
 
+.date {
+  font-family: 'Inconsolata', monospace;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 li {
   font-family: 'Noto Serif', serif;
 
 }
 a {
-    color: #00a;
+    color: $main-font;
     font-family: 'Noto Serif', serif;
+    text-decoration: none;
 
 }
 a:hover {
     color: #000;
 }
 a:visited {
-    color: #a0a;
+    // color: #a0a;
 }
 
 img {
