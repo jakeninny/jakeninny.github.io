@@ -5,6 +5,7 @@ date:   2016-01-14
 job: Front End Developer
 categories: job front end developer design
 dates: January - July 2016
+link: http://www.warehousestationery.co.nz/
 ---
 
 [![Warehouse stationery website]({{ site.url }}assets/images/warehouse.jpg)](http://www.warehousestationery.co.nz/)
