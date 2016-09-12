@@ -7,6 +7,9 @@ categories: job front end developer design
 dates: January - July 2016
 ---
 
+[![Warehouse stationery website]({{ site.url }}assets/images/warehouse.jpg)](http://www.warehousestationery.co.nz/)
+
+
 I was hired on a six month contract to help cover the transition to a new web store built on the Demandware platform.
 
 During this time I worked on several things:
