@@ -2,6 +2,13 @@
 
 $half-padding: 50px 20px;
 
+body {
+  background-image: url("../assets/images/echo-park.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .site-container {
 
   header {

@@ -6,6 +6,7 @@ job: Web Development and Design
 categories: job front end developer design
 dates: August 2016
 link: http://rapomare.tv/
+image: assets/images/raPomare.png
 ---
 
 [![Warehouse stationery website]({{ site.url }}assets/images/raPomare.png)](http://rapomare.tv/)
