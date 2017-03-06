@@ -13,6 +13,7 @@ $(document).ready( function(){
   var purp = $('#square-purp');
   var green = $('#square-green');
 
+  //shout out to Legion btw
 
   function randomPosition() {
     // Minimum 0 and maximum 80%. You can change that.
