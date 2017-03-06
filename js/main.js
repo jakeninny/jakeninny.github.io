@@ -54,6 +54,18 @@ $(document).ready( function(){
 
   //SHow content
 
+  setTimeout(function(){
+
+    workList.run();
+    console.log('no click show work');
+
+    $('.hidden').fadeIn('slow', function() {
+
+    });
+
+  }, 5000)
+
+
   $('#reveal').on('click', function(event) {
     event.preventDefault();
 
@@ -62,9 +74,7 @@ $(document).ready( function(){
 
     $('.hidden').fadeIn('slow', function() {
 
-
     });
-
 
   });
 
