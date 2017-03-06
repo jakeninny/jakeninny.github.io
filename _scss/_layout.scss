@@ -3,11 +3,37 @@
 $half-padding: 50px 20px;
 
 body {
-  background-image: url("../assets/images/echo-park.jpg");
+  // background-image: url("../assets/images/echo-park.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #C5C5C5;
 }
+
+#square-purp {
+  background-color: #7D467E;
+  width: 300px;
+  height: 500px;
+}
+
+#square-green {
+  background-color: #1E6B14;
+  width: 150px;
+  height: 250px;
+  top: 50%;
+  left: 20%;
+}
+
+.square {
+  position: fixed;
+  z-index: -10;
+}
+
+.hidden {
+  display: none;
+}
+
+
 
 .site-container {
 
@@ -27,6 +53,42 @@ body {
     header,
     .main-content {
       width: 100%;
+    }
+  }
+
+  .work-popup-outer {
+    position: absolute;
+    width: 60%;
+    padding: 20px;
+    height: auto;
+    background-color: #C5C5C5;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    border: 2px solid rgb(196, 46, 13);
+
+    top: 8%;
+    // transform: translateY(-50%);
+    z-index: 10;
+
+    .close-work {
+      font-style: italic;
+      font-size: 0.8rem;
+      position: absolute;
+      top: 5px;
+      right: 20px;
+      cursor: pointer;
+    }
+
+    .post-container {
+      margin: 0 auto;
+      width: 90%;
+      overflow: scroll;
+      max-height: 400px;
+
+      a {
+        cursor: pointer;
+      }
     }
   }
 }
