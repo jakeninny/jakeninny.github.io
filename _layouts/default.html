@@ -48,6 +48,25 @@
 
 <script src="https://code.jquery.com/jquery-1.7.1.min.js" integrity="sha256-iBcUE/x23aI6syuqF7EeT/+JFBxjPs5zeFJEXxumwb0=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+<script>
+
+  const pressed = [];
+  const code = 'jakeiscool';
+
+  window.addEventListener('keyup', (e) => {
+    console.log(e.key);
+    pressed.push(e.key);
+    pressed.splice(-code.length -1, pressed.length - code.length);
+
+    if(pressed.join('').includes(code)) {
+      console.log('Ding Ding');
+      cornify_add();
+    }
+    console.log(pressed);
+  })
+
+</script>
 </body>
 
 </html>
