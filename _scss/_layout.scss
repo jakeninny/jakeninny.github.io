@@ -53,6 +53,7 @@ body {
     header,
     .main-content {
       width: 100%;
+      padding-top: 0;
     }
   }
 
@@ -88,6 +89,22 @@ body {
 
       a {
         cursor: pointer;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 95%;
+      padding: 20px 5px;
+      top: 5%;
+
+      .close-work {
+        font-size: 1rem;
+        top: 5px;
+        right: 10px;
+      }
+
+      .post-container {
+        width: 95%;
       }
     }
   }
