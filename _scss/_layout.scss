@@ -1,6 +1,6 @@
 // ***Layout Styles***
 
-$half-padding: 50px 20px;
+$half-padding: 10px 20px;
 
 body {
   // background-image: url("../assets/images/echo-park.jpg");
@@ -10,19 +10,19 @@ body {
   background-color: #C5C5C5;
 }
 
-#square-purp {
-  background-color: #7D467E;
-  width: 300px;
-  height: 500px;
-}
+// #square-purp {
+//   background-color: #7D467E;
+//   width: 300px;
+//   height: 500px;
+// }
 
-#square-green {
-  background-color: #1E6B14;
-  width: 150px;
-  height: 250px;
-  top: 50%;
-  left: 20%;
-}
+// #square-green {
+//   background-color: #1E6B14;
+//   width: 150px;
+//   height: 250px;
+//   top: 50%;
+//   left: 20%;
+// }
 
 .square {
   position: fixed;
@@ -38,15 +38,15 @@ body {
 .site-container {
 
   header {
-    width: 50%;
+    // width: 50%;
     padding: $half-padding;
-    float: left;
+    // float: left;
   }
 
   .main-content {
-    width: 50%;
+    // width: 50%;
     padding: $half-padding;
-    float: right;
+    // float: right;
   }
 
   @media (max-width: 600px) {

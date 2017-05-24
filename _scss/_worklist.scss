@@ -2,16 +2,34 @@
 
   h1 {
     font-size: 1.2rem;
+    margin-bottom: 5px;
   }
 
   .posts {
     list-style: none;
     padding-left: 0px;
 
-    a {
+    li {
+      width: 200px;
       font-size: 0.8rem;
+      line-height: 1.5;
+      margin-bottom: 5px;
+    }
+
+    a {
+      font-size: 0.9rem;
     }
 
   }
 
+}
+
+.date {
+  text-decoration: underline;
+}
+
+.post {
+  img {
+    margin: 0 auto;
+  }
 }

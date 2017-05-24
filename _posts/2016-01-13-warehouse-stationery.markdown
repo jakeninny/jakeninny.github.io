@@ -2,7 +2,7 @@
 layout: post
 title:  "Warehouse Stationery"
 date:   2016-01-14
-job: Front End Developer
+job: Front End Development & Design
 categories: job front end developer design
 dates: January - July 2016
 link: http://www.warehousestationery.co.nz/

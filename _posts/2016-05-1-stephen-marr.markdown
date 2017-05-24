@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Stephen Marr"
-date:   2015-04-20 09:11:03
+date:   2016-07-20 09:11:03
 categories: jekyll update
-job: Web Developer
+job: Web Development
 categories: job front end developer design
 dates: June 2016
 link: http://stephenmarr.co.nz/

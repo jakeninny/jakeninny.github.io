@@ -6,78 +6,11 @@
 //   }, function() {
 //     $( this ).find( ".post-image" ).hide();
 //   });
+
 // });
 
 $(document).ready( function(){
 
-  var purp = $('#square-purp');
-  var green = $('#square-green');
-
-  //shout out to Legion btw
-
-  function randomPosition() {
-    // Minimum 0 and maximum 80%. You can change that.
-    return Math.max(0, Math.min(50, Math.ceil(Math.random() * 100)));
-
-  }
-
-  function randomSize(){
-
-    return Math.floor(Math.random() * 400) + 1;
-
-  }
-
-  function resize() {
-
-    $(purp).css('height', randomSize());
-    $(green).css('height', randomSize());
-
-    $(purp).css('width', randomSize());
-    $(green).css('width', randomSize());
-  }
-
-  function reposition() {
-    $(purp).css('top', randomPosition() + '%');
-    $(green).css('top', randomPosition() + '%');
-
-    $(purp).css('left', randomPosition() + '%');
-    $(green).css('left', randomPosition() + '%');
-
-  }
-
-  window.setInterval(function(){
-    /// call your function here
-    resize();
-    reposition();
-
-  }, 3000);
-
-
-  //SHow content
-
-  setTimeout(function(){
-
-    workList.run();
-    console.log('no click show work');
-
-    $('.hidden').fadeIn('slow', function() {
-
-    });
-
-  }, 5000)
-
-
-  $('#reveal').on('click', function(event) {
-    event.preventDefault();
-
-    workList.run();
-    console.log('fading in and running work list code');
-
-    $('.hidden').fadeIn('slow', function() {
-
-    });
-
-  });
 
   var workList = {
 
@@ -87,7 +20,7 @@ $(document).ready( function(){
     },
     showPost: function() {
       $('#work .posts li ').each(function(index, el) {
-        $(this).on('click',  function(event) {
+        $(this).on('click', function(event) {
           event.preventDefault();
           console.log(this);
 
@@ -117,7 +50,7 @@ $(document).ready( function(){
       });
     },
     workFrame: function() {
-      var work = "<div class='work-popup-outer'>" +
+      var work = "<div class='work-popup-outer animated fadeInDown'>" +
                   "<div class='close-work'> Close </div>" +
                   "<div class='work-popup'> </div>" +
                  "</div>";
@@ -156,6 +89,8 @@ $(document).ready( function(){
     }
 
   };
+
+  workList.run();
 
 
 

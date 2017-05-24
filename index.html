@@ -4,19 +4,19 @@ title: Jake Ninness | Hello
 ---
 
 
-<div id="work" class="hidden">
-  <h1>Work</h1>
+<div id="work" class="">
+  <h1>Some of My Work</h1>  
   <ul class="posts">
     {% for post in site.posts %}
       <li >
         <a href="{{ post.url }}"><span class="underline">{{ post.title }}</span> </a>
 
-          <!-- <br> {{ post.job }} -->
+           <br>({{ post.job }})
         <!-- <section class="post-image" id="{{ post.image }}" style=""><img src="{{ post.image }}" alt="" /></section> -->
         <!-- <br>
         <span>{{ post.dates }}</span>
-        <br>
-        <a href="{{ post.url }}">&#8627;</a> -->
+        <br> -->
+        <!--<a href="{{ post.url }}">&#8627;</a> -->
       </li>
     {% endfor %}
   </ul>
