@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Iko Iko"
+date:   2017-05-14
+job: Web Development
+categories: job front end developer design freelance
+dates: March - July 2017
+link: https://ikoiko.co.nz/
+---
+
+This was a freelance role which involved working with the client to make development changes to their Shopify website.
+
+This involved making changes to their theme template in HTML, CSS, javascript and the liquid templating language.
+
+As well as some responsive design optimisations.

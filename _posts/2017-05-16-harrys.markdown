@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Harry's"
+date:   2017-05-14
+job: Web Development
+categories: job front end developer design freelance
+dates: February - July 2017
+link: https://harrys.nz/
+---
+
+I worked with this client to design and build them a new online store.
+
+This involved working closely with the client on the design and then building the site in Shopify using HTML, SASS, javascript, jQuery and Liquid.
+
+It will be live the first week of August.
