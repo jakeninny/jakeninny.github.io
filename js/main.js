@@ -2,6 +2,8 @@
 //   $('.image-pop').magnificPopup({type:'image'});
 // });
 
+
+
 // $(document).ready(function(){
 //   $(".post-image").hide();
 
