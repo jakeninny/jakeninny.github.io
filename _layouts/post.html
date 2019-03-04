@@ -3,11 +3,23 @@ layout: default
 ---
 
 
-<div class="post-container">
-  <h2><a href="{{page.link}}" target="_blank"> {{ page.title }} <span class="post-link"></span></a></h2>
-  <p class="meta date">{{ page.dates }}</p>
+<div class="post-wrapper">
+  <div class="post-container">
+    <h2><a href="{{page.link}}" target="_blank"> {{ page.title }} <span class="post-link"></span></a></h2>
+    <p class="meta date">{{ page.dates }}</p>
+  
+    <div class="post">
+    {{ content }}
+    </div>
+  </div>
 
-  <div class="post">
-  {{ content }}
+  <div class="post-pagination">
+    {% if page.next.url %}
+      <a class="prev" href="{{page.next.url}}">Previous &laquo;</a>
+    {% endif %}
+    {% if page.previous.url %}
+      <!-- <a class="prev" href="{{page.previous.url}}">&raquo; {{page.previous.title}}</a> -->
+      <a class="next" href="{{page.previous.url}}">&raquo; Next</a>
+    {% endif %}
   </div>
 </div>

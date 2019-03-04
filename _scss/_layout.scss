@@ -34,19 +34,53 @@ body {
 }
 
 
+.post-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .post-container {
+    margin-bottom: 2rem;
+  }
+
+  .post-pagination {
+    border-top: 2px solid $main-font;
+    padding-top: 1rem;
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    font-weight: bold;
+
+    .next {
+      margin-left: auto;
+    }
+  }
+}
+
+
 
 .site-container {
+
+  display: flex;
 
   header {
     // width: 50%;
     padding: $half-padding;
     // float: left;
+    flex: 0 0 26%;
   }
 
   .main-content {
+    display: flex;
+    flex: 1 1 auto; 
+    background: #eee;
     // width: 50%;
     padding: $half-padding;
+    padding-top: 50px;
     // float: right;
+    // height: 100%;
+
   }
 
   @media (max-width: 600px) {

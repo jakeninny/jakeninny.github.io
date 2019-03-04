@@ -9,7 +9,7 @@ link: http://rapomare.tv/
 image: assets/images/raPomare1.png
 ---
 
-[![Ra Pomare website]({{ site.url }}assets/images/raPomare1.png)](http://rapomare.tv/)
+![Ra Pomare website]({{ site.url }}assets/images/raPomare1.png){: .image-pop}
 
 I worked closely with the client to design and develop a personal portfolio website that could be easily managed.
 
@@ -17,4 +17,3 @@ I decided to try something new and build the site using the Grav CMS, which I ha
 
 I really enjoyed working with it and found it very easy to build a custom site with different post and media types that could easily be edited by the client in the CMS.
 
-What you can't see here is the ever changing background colour animation.
